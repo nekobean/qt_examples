@@ -8,7 +8,7 @@ project(sample)
 # ビルドディレクトリを include ディレクトリに追加するオプションを有効にする。
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-# MOC が必要な場合は有効にするオプションを有効にする。
+# MOC が必要な場合は自動的に実行するオプションを有効にする。
 set(CMAKE_AUTOMOC ON)
 
 # QtWidgets ライブラリを検索する。
